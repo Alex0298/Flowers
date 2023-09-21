@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <title>Flower</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+<div class="content">
+  <div class="flower">
+      <div class="text-above">De Francisco</div>
+      <div class="mid">
+      </div>
+      <div class="Petal1 p1">
+      </div>
+      <div class="Petal1 p2">
+      </div>
+      <div class="Petal1 p3">
+      </div>
+      <div class="Petal1 p4">
+      </div>
+      <div class="Petal2 p1">
+      </div>
+      <div class="Petal2 p2">
+      </div>
+      <div class="Petal2 p3">
+      </div>
+      <div class="Petal2 p4">
+      </div>
+      <div class="Petal3 p1">
+      </div>
+      <div class="Petal3 p2">
+      </div>
+      <div class="Petal3 p3">
+      </div>
+      <div class="Petal3 p4">
+      </div>
+      <div class="text-below">Para mi afeda </div>
+    </div>
+    <div class="heart" id="heart">
+      <span class="text-click">Presioname el corazón!</span>
+    </div>
+  </div>
+</body>
+<script lang="text/javascript">
+   let heart = document.getElementById('heart')
+   heart.addEventListener("click", function(){  
+      Swal.fire({
+        title: 'Te Amooo!!',
+        text: 'Me haces muy feliz mi amor, gracias por estos 8 años y por muchos más!',
+        imageUrl: './foto.jpeg',
+        imageWidth: 400,
+        imageHeight: 400,
+        imageAlt: 'Custom image',
+      })
+   });
+
+</script>
+</html>
